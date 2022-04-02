@@ -15,13 +15,13 @@ export const App = () => {
     <>
     <Router>
     <Switch>
-          <Route path="/About.js">
+          <Route path="/About">
             <About />
           </Route>
-          <Route path="/Terms.js">
+          <Route path="/Terms">
             <Terms />
           </Route>
-          <Route path="/Privacy.js">
+          <Route path="/Privacy">
             <Privacy />
           </Route>
           <Route path="/">

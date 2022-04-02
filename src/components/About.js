@@ -1,16 +1,17 @@
-import React from "react";
 import { Navbar } from './Navbar';
+import React from 'react';
 
-export const About = () => {
+export const About = (props) => {
+
   return (
     <>
-    <Navbar/>
+    <Navbar />
     <div id="para1" className="container text-center">
      <p>We are a team of passionate travelers, building a exciting travel app to
         help us uncover and explore places recommended by people we trust and with
         whom we share a similar travel style!</p>
     </div>
-    <div className="flags">
+    <div className="container">
      <div className="flags">
      <div className="panel">
       <img src="images/intro.png" className="img-thumbnail" alt="intro.png"></img>
