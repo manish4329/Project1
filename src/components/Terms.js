@@ -1,17 +1,15 @@
 import React from "react";
-import { Navbar } from "./Navbar";
 
 export const Terms = () => {
   return (
     <>
-      <Navbar/>
       <div id="term" className="container">
         <h2>Terms of Use</h2>
-        
         <p>Last updated February 28, 2022</p>
         <p>Thank you for using Been There!</p>
         <h3>1. Your Acceptance of Terms</h3>
-         <p>These Terms of Use (<b>“Terms”</b>) are a binding legal agreement
+        <p>
+          These Terms of Use (<b>“Terms”</b>) are a binding legal agreement
           between you and Been There Inc. that govern your use of the website,
           applications, and other offerings from Been There (collectively, the
           <b>“Been There Platform”</b>). When used in these Terms,{" "}
@@ -22,10 +20,8 @@ export const Terms = () => {
           ). Your agreement with us regarding compliance with these Terms
           becomes effective immediately upon commencement of your use of the
           Platform.
-          </p>
-        
+        </p>
         <h3>2. The Been There Service</h3>
-        
         <p>
           Through this agreement, we agree to provide you with the Been There
           Service (“Service”). The Services includes all of the Been There
@@ -41,7 +37,6 @@ export const Terms = () => {
           and friends their trust, and people they share a similar travel style.
         </p>
         <h3>3. Update of These Terms</h3>
-        
         <p>
           We reserve the right to update these Terms periodically without notice
           to you. You acknowledge and agree that it is your responsibility to
@@ -54,13 +49,11 @@ export const Terms = () => {
           Terms to abide and be bound by the modified Terms.
         </p>
         <h3>4. Modification to any Services Provided on Platform</h3>
-        
         <p>
           You are solely responsible for providing, at your own expense, all
           equipment necessary to use the services, including a phone and
           internet services.
         </p>
-        
         <p>
           We reserve the sole right to either modify or discontinue the
           Platform, including any services therein, at any time with or without
@@ -78,16 +71,13 @@ export const Terms = () => {
           therefore, delays and disruption of other network transmissions are
           completely beyond our control.
         </p>
-        
         <p>
           You understand and agree that the services available on this Platform
           are provided “AS IS” and that we assume no responsibility for the
           timeliness, deletion, mis-delivery or failure to store any user
           communications or personalization settings.
         </p>
-        
         <h3>5. Access to the Platform</h3>
-        
         <p>
           In order to access all of the services on this Platform, particularly
           mobile, you will require a separate account and password that can be
@@ -102,9 +92,7 @@ export const Terms = () => {
           to our Privacy Policy, which is specifically incorporated by reference
           into these Terms.
         </p>
-        
         <h3>6. Platform Rules</h3>
-        
         <p>
           Parts of the Been There Platform enable you to provide review and
           rating, location of places, view maps, photos, information, and other
@@ -120,9 +108,7 @@ export const Terms = () => {
           means. Any unauthorized use of the materials is subjected to Copyright
           Policy in Section 9.
         </p>
-        
         <p>Additionally, you agree not to:</p>
-        
         <ul>
           <li>
             - Use this Platform or its content for any commercial purposes
@@ -162,12 +148,15 @@ export const Terms = () => {
           third parties. In the event that any party believes that content
           posted on this Platform infringes on any patent, trademark, trade
           secret, copyright, right of publicity, or other proprietary right of
-          any party, please alert us immediately at <a style={{textDecoration: 'none'}} href="beentheretravelapp@gmail.com">beentheretravelapp@gmail.com</a>
-          
+          any party, please alert us immediately at{" "}
+          <a
+            style={{ textDecoration: "none" }}
+            href="beentheretravelapp@gmail.com"
+          >
+            beentheretravelapp@gmail.com
+          </a>
         </p>
-        
         <h3>7. Content you add to the Platform</h3>
-        
         <p>
           By providing Content, in whatever form and through whatever means, you
           grant Been There a non-exclusive, worldwide, royalty-free,
@@ -177,14 +166,12 @@ export const Terms = () => {
           personal information, our Privacy Policy describes how we use that
           personal information.
         </p>
-        
         <p>
           You expressly agree not to upload, share, post, or otherwise
           distribute or facilitate distribution of any content — including text,
           communications, software, images, sounds, data, or other information —
           that:
         </p>
-        
         <ul>
           <li>
             - Discriminates other users of the Platform on the basis of Race,
@@ -234,7 +221,6 @@ export const Terms = () => {
           hereby consent to such removal and waive any claim against us arising
           out of such removal of content.
         </p>
-        
         <p>
           In addition, you may not use your account to breach security of
           another account or attempt to gain unauthorized access to another
@@ -243,7 +229,6 @@ export const Terms = () => {
           security may incur criminal or civil liability, and permanently
           removed from the Platform.
         </p>
-        
         <p>
           You agree that we may at any time, and at our sole discretion,
           terminate your membership without prior notice to you for violating
@@ -253,23 +238,26 @@ export const Terms = () => {
           enforcement authorities in investigating suspected criminal
           violations.
         </p>
-        
         <h3>8. Content Contributed by Other Users</h3>
-        
         <p>
           We assume no responsibility or liability for any information, media,
           hyperlinks, or recommendations provided to you or through the Platform
           by other users. If you become aware of misuse of the Platform, please
-          alert us immediately at <a style={{textDecoration: 'none'}} href="beentheretravelapp@gmail.com">beentheretravelapp@gmail.com</a>.
+          alert us immediately at{" "}
+          <a
+            style={{ textDecoration: "none" }}
+            href="beentheretravelapp@gmail.com"
+          >
+            beentheretravelapp@gmail.com
+          </a>
+          .
         </p>
-        
         <h3>9. Copyright Policy</h3>
         <p>
           Since we respect Content owner rights, it is Been There’s policy to
           respond to alleged infringement notices that comply with the Digital
           Millennium Copyright Act of 1998 (“DMCA”).
         </p>
-        
         <p>
           If you believe that your copyrighted work has been copied in a way
           that constitutes copyright infringement and is accessible via the
@@ -277,7 +265,6 @@ export const Terms = () => {
           the DMCA. For your complaint to be valid under the DMCA, you must
           provide the following information in writing:
         </p>
-        
         <ul>
           <li>
             - An electronic or physical signature of a person authorized to act
@@ -311,23 +298,35 @@ export const Terms = () => {
           </li>
         </ul>
         <b>
-          Mailing Address:<br/>
-          Attn DMCA Notice<br/>
-          Been There, Inc.<br/>
-          250 Meridian Street, 204<br/>
-          Boston, MA 02128<br/>
+          Mailing Address:
+          <br />
+          Attn DMCA Notice
+          <br />
+          Been There, Inc.
+          <br />
+          250 Meridian Street, 204
+          <br />
+          Boston, MA 02128
+          <br />
         </b>
-        <b>Email Address:<br/>
-        <a style={{textDecoration: 'none'}} href="beentheretravelapp@gmail.com">beentheretravelapp@gmail.com</a></b>
-        <br/>
-        <br/>
+        <b>
+          Email Address:
+          <br />
+          <a
+            style={{ textDecoration: "none" }}
+            href="beentheretravelapp@gmail.com"
+          >
+            beentheretravelapp@gmail.com
+          </a>
+        </b>
+        <br />
+        <br />
         <p>
           UNDER FEDERAL LAW, IF YOU KNOWINGLY MISREPRESENT THAT ONLINE MATERIAL
           IS INFRINGING, YOU MAY BE SUBJECT TO CRIMINAL PROSECUTION FOR PERJURY
           AND CIVIL PENALTIES, INCLUDING MONETARY DAMAGES, COURT COSTS, AND
           ATTORNEYS’ FEES.
         </p>
-        
         <p>
           Please note that this procedure is exclusively for notifying Been
           There, Inc that your copyrighted material has been infringed. The
@@ -337,7 +336,6 @@ export const Terms = () => {
           attorney regarding your rights and obligations under the DMCA and
           other applicable laws.
         </p>
-        
         <p>
           In accordance with the DMCA and other applicable law, Been There, Inc
           has adopted a policy of terminating, in appropriate circumstances,
@@ -346,15 +344,15 @@ export const Terms = () => {
           the accounts of any users who infringe any intellectual property
           rights of others, whether or not there is any repeat infringement.
         </p>
-        
         <h3>10. Privacy Policy</h3>
-        
-        Please click <a style={{textDecoration: 'none'}} href="/Privacy.js">here</a> to review our current Privacy
-        Policy.
-        <br/>
-        <br/>
+        Please click{" "}
+        <a style={{ textDecoration: "none" }} href="/Privacy.js">
+          here
+        </a>{" "}
+        to review our current Privacy Policy.
+        <br />
+        <br />
         <h3>11. Disclaimer of Warranties</h3>
-        
         <p>
           All materials and services on this platform are provided on an "AS-IS"
           and “AS AVAILABLE” basis without warranty of any kind, either express,
@@ -374,16 +372,13 @@ export const Terms = () => {
           that are posted on the platform, nor do we take responsibility for
           products or services that they promote.
         </p>
-        
         <h3>12. Limitation of Liability</h3>
-        
         <p>
           Your exclusive remedy and our entire liability, if any, for any claims
           arising out of these Terms and your use of this Platform shall be
           limited to the amount you paid us for the services on the platform
           before the act giving rise to the liability.
         </p>
-        
         <p>
           In no event shall we be liable to you or any third party for any
           special, punitive, incidental, indirect or consequential damages of
@@ -399,9 +394,7 @@ export const Terms = () => {
           consequential or incidental damages, so the above limitations may not
           apply to you.
         </p>
-        
         <h3>13. Indemnification</h3>
-        
         <p>
           Upon a request by us, you agree to defend, indemnify, and hold us
           harmless from all liabilities, claims, and expenses, including
@@ -411,15 +404,12 @@ export const Terms = () => {
           by you, in which event you will cooperate with us in asserting any
           available defenses.
         </p>
-        
         <h3>14. Termination</h3>
-        
         <p>
           You agree that we may, in our sole discretion, terminate or suspend
           your access to all or part of the Platform with or without notice and
           for any reason, including, without limitation, breach of these Terms.
         </p>
-        
         <p>
           Any suspected fraudulent, abusive or illegal activity may be grounds
           for terminating your relationship and may be referred to appropriate
@@ -433,16 +423,13 @@ export const Terms = () => {
           termination or suspension or any other actions taken by us in
           connection therewith.
         </p>
-        
         <h3>15. Jurisdiction and Governing Law</h3>
-        
         <p>
           This Platform is controlled from our offices within the State of
           Massachusetts, USA. This Agreement is governed by the laws of the
           State of Massachusetts, USA. You hereby consent to the exclusive
           jurisdiction and venue of courts in the State of Massachusetts, USA.
         </p>
-        
         <p>
           Each of the parties hereby knowingly, voluntarily, and intentionally
           waives any right it may have to a trial by jury in respect of any
@@ -455,7 +442,6 @@ export const Terms = () => {
           provision. Each of the parties acknowledges that this section is a
           material inducement for the other party entering into these terms.
         </p>
-        
       </div>
     </>
   );

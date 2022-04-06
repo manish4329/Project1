@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Libre+Baskerville&family=Montserrat:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Libre+Baskerville&family=Montserrat:wght@400;800&display=swap");
 body {
   margin: 0;
   font-family: "Abhaya Libre", serif;
@@ -6,10 +6,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#nav{
+#nav {
   font-family: "Roboto Mono", monospace;
+  position: absolute;
+  z-index: 1;
 }
-#navbar{
+#navbar {
   display: flex;
   justify-content: flex-start;
   padding: 0px;
@@ -17,93 +19,95 @@ body {
   margin-left: 10px;
   max-height: 86px;
 }
-#term{
-  color: #000;  
+#term {
+  color: #000;
+  padding-top: 170px;
 }
-#term h2{
-    font-size: 2em;
-    font-weight: bolder;
-}
-#term b{
-  font-size:larger ;
+#term h2 {
+  font-size: 2em;
   font-weight: bolder;
 }
-#term ul li{
-  list-style-type: none;
+#term b {
+  font-size: larger;
+  font-weight: bolder;
 }
-#policy{
+
+#policy {
   color: #000;
   box-sizing: border-box;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 170px;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 1140px;
 }
-#policy h2{
+#policy h2 {
   box-sizing: border-box;
   font-size: 2em;
   margin: 20px 0;
 }
-#policy b{
-  font-size:larger ;
+#policy b {
+  font-size: larger;
   font-weight: bolder;
 }
-#policy ul li{
+#policy ul li {
   list-style-type: none;
 }
 
-.img-thumbnails{
+.img-thumbnails {
   display: block;
   max-width: 100%;
   width: 65px;
-  height: 85px; ;
+  height: 85px;
   background: none;
   opacity: 1;
   border: 0;
   margin: 0;
   padding: 0;
 }
-#para1{
-  padding: 50px;
+#para1 {
+  padding-top: 170px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-#para1 p{
+#para1 p {
   color: #000;
-  font-family: Montserrat,serif;
+  font-family: Montserrat, serif;
   font-weight: 400;
   font-size: 110%;
   line-height: 1.5;
   display: flex;
   justify-content: center;
 }
-.flags{
+.flags {
   color: #000;
-  font-family: Montserrat,serif;
+  font-family: Montserrat, serif;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   box-sizing: border-box;
 }
-.panel{
- font-family: Montserrat,serif;
- max-width: 33%;
- box-sizing: border-box;
- display: block;
- text-align: center;
- line-height: 1.4;
+.panel {
+  font-family: Montserrat, serif;
+  max-width: 33%;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  line-height: 1.4;
 }
-.img-thumbnail{
+.img-thumbnail {
   box-sizing: border-box;
   border: none;
-  width: 100px; 
+  width: 100px;
   height: 130px;
 }
-.panel h2{
+.panel h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Montserrat,serif;
+  font-family: Montserrat, serif;
   font-weight: 800;
   font-size: 150%;
   line-height: 1.3;
@@ -113,8 +117,8 @@ body {
   min-height: 100px;
   margin-bottom: 0;
 }
-.panel p{
-  font-family: Montserrat,sans-serif;
+.panel p {
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
   font-size: 110%;
   text-align: center;
@@ -122,25 +126,24 @@ body {
   margin-top: 10px;
 }
 
-#navbar{
+#navbar {
   display: flex;
   justify-content: space-between;
 }
-#navbarNav{
-display: flex;
-justify-content: center;
-padding-right: 100px;
-padding-top: 50px;
+#navbarNav {
+  padding-left: 150px; ;
+  padding-right: 100px;
+  padding-top: 50px;
 }
-#ulmenu{
-  font-family: 'Abhaya Libre', serif;
+#ulmenu {
+  font-family: "Abhaya Libre", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   display: flex;
   padding-right: 100px;
 }
-.nav-item{
+.nav-item {
   display: flex;
   padding-right: 80px;
 }
@@ -153,22 +156,20 @@ padding-top: 50px;
   margin-top: 10px;
   margin-left: 10px;
 }
-#anchor h2{
-  color: white;
-  font-family: Montserrat,serif;
+#anchor h2 {
+  font-family: Montserrat, serif;
   font-style: normal;
   font-weight: 900;
   font-size: 38px;
   line-height: 20px;
-  letter-spacing: .01em;
+  letter-spacing: 0.01em;
   display: flex;
   align-items: flex-end;
   margin-bottom: 0px;
   margin-top: 10px;
 }
-#anchor h3{
-  color: white;
-  font-family: Montserrat,serif;
+#anchor h3 {
+  font-family: Montserrat, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 31px;
@@ -176,18 +177,24 @@ padding-top: 50px;
   align-items: flex-start;
   margin-left: 2px;
 }
-#home{
-  background: linear-gradient(rgb(247, 207, 1) 0%, rgb(64, 206, 201) 100%, rgb(108, 92, 231) 100%);
-  color: #000;   
-  max-width: 100%;
-  max-height: 100%;
+#home {
+  background: linear-gradient(
+    rgb(247, 207, 1) 0%,
+    rgb(64, 206, 201) 100%,
+    rgb(108, 92, 231) 100%
+  );
+  color: #000;
+  position: absolute;
+  width: 100vw;
+  height: 120vh;
+  
 }
-#homebox{
-  padding-top: 50px;
+#homebox {
+  padding-top: 140px;
   padding-left: 215px;
 }
-#homebox h5{
-  font-family: Abhaya Libre,serif;
+#homebox h5 {
+  font-family: Abhaya Libre, serif;
   display: flex;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -196,25 +203,25 @@ padding-top: 50px;
   font-style: normal;
   letter-spacing: 5px;
 }
-.body_line{
+.body_line {
   border-bottom: 2px solid #000;
   width: 62px;
 }
-#homebox h1{
-  font-family: Montserrat,sans-serif;
+#homebox h1 {
+  font-family: Montserrat, sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 400%;
   line-height: 80px;
   margin-top: 20px;
 }
-#homebox h2{
-    font-style: normal;
-    font-weight: 400;
-    font-family: Libre Baskerville,sans-serif;
-    font-size: 350%;
+#homebox h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-family: Libre Baskerville, sans-serif;
+  font-size: 350%;
 }
-.body_button{
+.body_button {
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -225,21 +232,15 @@ padding-top: 50px;
   width: 345px;
   height: 50px;
   border-radius: 23px;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 20px;
   font-weight: 600;
   box-sizing: border-box;
   text-decoration: none;
 }
-#apple{
+#apple {
   padding-right: 25px;
 }
-#google{
+#google {
   padding-bottom: 2px;
-}
-@media (min-width: 992px) {
-  
- }
- @media (min-width: 768px){
- 
 }
