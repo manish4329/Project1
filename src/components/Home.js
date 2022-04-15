@@ -8,12 +8,11 @@ export const Home = () => {
           <h5> YOUR PERSONAL TRAVEL MEMOIR</h5>
           <div id="homeline" className="body_line"></div>
           <h1>
-            <b>PACK YOUR BAGS !!</b>
+            <strong>PACK YOUR BAGS !!</strong>
           </h1>
           <h2>
-            WE WILL BE
-            <br />
-            GOING PLACES <br />
+            WE WILL BE<br/>
+            GOING PLACES<br/>
             SOON !!
           </h2>
           <a className="body_button" href="https://forrms.google">

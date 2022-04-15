@@ -1,17 +1,16 @@
 import React from "react";
 import { About } from "./components/About";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { Terms } from "./components/Terms";
 import { Privacy } from "./components/Privacy";
 import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
-
 export const App = () => {
   
   return (
     <>
       <Router>
-        <Navbar/>
+        <Navbar />
         <Switch>
           <Route path="/about">
             <About />
@@ -29,4 +28,4 @@ export const App = () => {
       </Router>
     </>
   );
-};
+}
