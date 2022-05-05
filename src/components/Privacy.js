@@ -12,17 +12,17 @@ export const Privacy = () => {
           Been There, Inc, a Delaware corporation, operates a web and mobile
           applications collectively referred to as “Been There Platform”. When
           used in these Policy,
-          <b>“Been There," “Platform,” “we,” “us,” </b>or <b>“our”</b> refers to
+          <strong>“Been There," “Platform,” “we,” “us,” </strong>or <strong>“our”</strong> refers to
           the Been There entity. We use your personal information to improve and
           optimize user experience of the Been There Platform. By using our
           Platform, you agree to the collection and use of information in
-          accordance with this Privacy Policy <b>“Policy”</b>
+          accordance with this Privacy Policy <strong>“Policy”</strong>
         </p>
         <h3>What information we collect?</h3>
         To provide the Been There Products, we collect the following
         information:
         <br />
-        <b>1. Registration Account Details </b>– We In order to access all of
+        <strong>1. Registration Account Details </strong>– We In order to access all of
         the services on this Platform, particularly mobile, you will require a
         separate account and password that can be obtained by either using a
         sign-in option via other social media platforms like Facebook or using a
@@ -45,7 +45,7 @@ export const Privacy = () => {
             operations.
           </li>
         </ul>
-        <b>2. Content you provide</b> –We collect the content and other
+        <strong>2. Content you provide</strong> –We collect the content and other
         information you provide when you use our Products, create or share
         content, or interact with other user’s content. This can include
         information in or about the content you provide (like metadata), such as
@@ -56,7 +56,7 @@ export const Privacy = () => {
         from their posts. We automatically process place marked as “Been There”
         on the Platform to plot its associated country on the “World Map”.
         <br />
-        <b>3. Platform Usage</b> –To optimize the performance and user
+        <strong>3. Platform Usage</strong> –To optimize the performance and user
         experience of the Platform, we may track and store your Platform usage
         data. This data includes actions taken on platform to perform searches,
         logins, screens you view, interactions, or time spent on various
@@ -64,12 +64,12 @@ export const Privacy = () => {
         third parties or any other user of the Platform outside of Been There
         entity.
         <br />
-        <b>4. Device Information</b> – To improve the performance of Been There
+        <strong>4. Device Information</strong> – To improve the performance of Been There
         platform on your mobile device, we may collect certain information about
         your devices that includes:
         <ul>
           <li>
-            - <b>Device attribute:</b>information such as the operating system
+            - <strong>Device attribute:</strong>information such as the operating system
             (iOS or Android), hardware and software versions, battery level,
             signal strength, available storage space, browser type, app and file
             names and types, and plugins. This information will help us
@@ -77,7 +77,7 @@ export const Privacy = () => {
             different capabilities and characteristics.
           </li>
           <li>
-            - <b>Device operations:</b>To avoid misuse of the platform and avoid
+            - <strong>Device operations:</strong>To avoid misuse of the platform and avoid
             the use of bots, crawlers, scrapers, or other automated means to
             access or collect data or other content from or otherwise interact
             with the Been There Platform, we will collect information about
@@ -85,19 +85,19 @@ export const Privacy = () => {
             humans from bots
           </li>
           <li>
-            - <b>Device signals:</b>Bluetooth signals, Wi-Fi availability,
+            - <strong>Device signals:</strong>Bluetooth signals, Wi-Fi availability,
             strength and connection speed <br />-{" "}
-            <b>Data from device settings:</b>
+            <strong>Data from device settings:</strong>
             information you allow us to receive through device settings you turn
             on, such as access to your GPS location, camera and/or photos.
           </li>
           <li>
-            - <b>Network and connections:</b> information such as the name of
+            - <strong>Network and connections:</strong> information such as the name of
             your mobile operator or ISP, language, time zone, mobile phone
             number, IP address
           </li>
           <li>
-            - <b>Cookie data:</b>data from cookies stored on your device,
+            - <strong>Cookie data:</strong>data from cookies stored on your device,
             including cookie IDs and settingsinformation such as the name of
             your mobile operator or ISP, language, time zone, mobile phone
             number, IP address
@@ -195,14 +195,14 @@ export const Privacy = () => {
           or by mail at:
         </p>
         <br />
-        <b>
+        <strong>
           Been There,Inc
           <br />
           250 Meridian St, Suite 204
           <br />
           Boston MA 02128
           <br />
-        </b>
+        </strong>
       </div>
     </>
   );

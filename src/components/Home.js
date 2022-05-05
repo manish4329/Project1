@@ -24,16 +24,12 @@ export const Home = () => {
             type="image"
             src="/images/Applelogo.svg"
             alt="AppleLogo.svg"
-            width="180"
-            height="48"
           />
           <input
             id="google"
             type="image"
             src="/images/Googlelogo.svg"
             alt="GoogleLogo.svg"
-            width="180"
-            height="48"
           />
         </div>
       </div>

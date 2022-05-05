@@ -9,14 +9,14 @@ export const Terms = () => {
         <p>Thank you for using Been There!</p>
         <h3>1. Your Acceptance of Terms</h3>
         <p>
-          These Terms of Use (<b>“Terms”</b>) are a binding legal agreement
+          These Terms of Use (<strong>“Terms”</strong>) are a binding legal agreement
           between you and Been There Inc. that govern your use of the website,
           applications, and other offerings from Been There (collectively, the
-          <b>“Been There Platform”</b>). When used in these Terms,{" "}
-          <b>“Been There,” “Platform,” “we,” “us,”</b> or <b>“our”</b>refers to
+          <strong>“Been There Platform”</strong>). When used in these Terms,{" "}
+          <strong>“Been There,” “Platform,” “we,” “us,”</strong> or <strong>“our”</strong>refers to
           the Been There entity. By completing the registration process and/or
           using Been There, you agree to be bound by all the terms, conditions,
-          and notices contained or referenced herein (the <b>“Terms of Use”</b>
+          and notices contained or referenced herein (the <strong>“Terms of Use”</strong>
           ). Your agreement with us regarding compliance with these Terms
           becomes effective immediately upon commencement of your use of the
           Platform.
@@ -297,7 +297,7 @@ export const Terms = () => {
             Agent (we prefer email):
           </li>
         </ul>
-        <b>
+        <strong>
           Mailing Address:
           <br />
           Attn DMCA Notice
@@ -308,8 +308,8 @@ export const Terms = () => {
           <br />
           Boston, MA 02128
           <br />
-        </b>
-        <b>
+        </strong>
+        <strong>
           Email Address:
           <br />
           <a
@@ -318,7 +318,7 @@ export const Terms = () => {
           >
             beentheretravelapp@gmail.com
           </a>
-        </b>
+        </strong>
         <br />
         <br />
         <p>

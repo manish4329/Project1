@@ -14,7 +14,7 @@ export const About = (props) => {
         <div className="flags">
           <div className="panel">
             <img
-              src="images/intro.png"
+              src="/images/intro.png"
               className="img-thumbnail"
               alt="intro.png"
             />
@@ -28,7 +28,7 @@ export const About = (props) => {
           </div>
           <div className="panel">
             <img
-              src="images/intro2.png"
+              src="/images/intro2.png"
               className="img-thumbnail"
               alt="intro2.png"
             />
@@ -42,7 +42,7 @@ export const About = (props) => {
           </div>
           <div className="panel">
             <img
-              src="./images/intro3.png"
+              src="/images/intro3.png"
               className="img-thumbnail"
               alt="intro3.png"
             />

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 export const Navbar = () => {
   const white = "/images/Logo1.svg";
   const yellow = "/images/Logo2.svg";
@@ -12,7 +12,7 @@ export const Navbar = () => {
   const location = useLocation();
   useEffect(() => {
     switch (location.pathname) {
-      case "/About":
+      case "/about":
         setmystyle({
           color: "rgb(247, 207, 1)",
         });
@@ -67,21 +67,21 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul id="ulmenu" className="navbar-nav">
             <li className="nav-item">
-              <a
+              <Link
                 className="nav-link active"
                 style={border1}
                 aria-current="page"
-                href="/About"
+                to="/about"
               >
                 <b>About Us</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a
                 className="nav-link active"
                 style={border2}
                 aria-current="page"
-                href="/Privacy"
+                href="/privacy"
               >
                 <b>Privacy Policy</b>
               </a>
@@ -91,7 +91,7 @@ export const Navbar = () => {
                 className="nav-link active"
                 style={border3}
                 aria-current="page"
-                href="/Terms"
+                href="/terms"
               >
                 <b>Terms of Use</b>
               </a>
